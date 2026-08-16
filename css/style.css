@@ -9,9 +9,14 @@ body {
     padding: 30px;
 }
 
+* {
+    text-align: center;
+}
+
 /* Fluorescent Highlighter H1 */
 h1 {
     color: #00FF66; /* Fluorescent Neon Green */
+
     font-size: 2.5rem;
     margin-bottom: 5px;
     text-shadow: 0 0 10px rgba(0, 255, 102, 0.3);
@@ -20,6 +25,7 @@ h1 {
 /* Fluorescent Highlighter H2 / Subtitles */
 h2 {
     color: #00E5FF; /* Fluorescent Neon Cyan/Blue */
+
     font-size: 1.3rem;
     font-weight: 400;
     margin-top: 0;
@@ -127,10 +133,10 @@ p {
 
 .project-links a:visited {
     color: #ffb700;
-    text-shadow: 0 0 8px red;
+    text-shadow: 0 0 8px magenta;
 }
 
 .project-links a:active {
     color: #adff2f;
-    text-decoration: none;
+    text-shadow: 0 0 8px cyan;
 }
