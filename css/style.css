@@ -1,0 +1,68 @@
+/* Dark Mode Base */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Fluorescent Highlighter H1 */
+h1 {
+    color: #00FF66; /* Fluorescent Neon Green */
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    text-shadow: 0 0 10px rgba(0, 255, 102, 0.3);
+}
+
+/* Fluorescent Highlighter H2 / Subtitles */
+h2 {
+    color: #00E5FF; /* Fluorescent Neon Cyan/Blue */
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Section Headings */
+section h2 {
+    color: #FF0055; /* Fluorescent Hot Pink */
+    border-bottom: 1px dashed #333;
+    padding-bottom: 8px;
+    margin-top: 40px;
+}
+
+/* Fluorescent Highlighter Paragraphs */
+p {
+    color: #FFEA00; /* Fluorescent Neon Yellow */
+    font-size: 1.05rem;
+}
+
+/* Project Cards / Placeholders */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.project-card {
+    background-color: #1c1c1c;
+    border: 1px solid #333;
+    border-left: 4px solid #FF3D00; /* Fluorescent Neon Orange accent */
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.project-card h3 {
+    color: #E040FB; /* Fluorescent Neon Purple/Magenta */
+    margin-top: 0;
+}
+
+.project-card p {
+    color: #B9F6CA; /* Softer fluorescent tint for card text */
+    font-size: 0.95rem;
+    margin-bottom: 0;
+}
